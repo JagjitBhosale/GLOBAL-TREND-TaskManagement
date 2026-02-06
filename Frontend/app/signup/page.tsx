@@ -9,7 +9,7 @@ import AuthCard from '@/components/auth-card'
 import GoogleButton from '@/components/google-button'
 import { Mail, Lock, User } from 'lucide-react'
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:5000'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://global-trend-taskmanagement.onrender.com'
 const GOOGLE_CLIENT_ID =
   '550844686073-rej3msel5kh9e8pmtuea2t0mp97gnrbb.apps.googleusercontent.com'
 

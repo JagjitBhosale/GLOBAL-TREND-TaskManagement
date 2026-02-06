@@ -8,7 +8,7 @@ import TaskList from '@/components/task-list'
 import TaskStats from '@/components/task-stats'
 import { Task } from '@/types/task'
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:5000'
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://global-trend-taskmanagement.onrender.com'
 
 export default function Dashboard() {
   const router = useRouter()
